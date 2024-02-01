@@ -1,0 +1,2589 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "44f95aaa-b8fb-4878-90c0-6b2790b3f62f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "MY_Library:0458003.DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 5.842 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "48V/3A"
+				(at -0.254 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MYLibrary:FUSE-SMD_L3.2-W1.6"
+				(at 1.016 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0458003.DR_1_0"
+				(rectangle
+					(start -3.302 -0.762)
+					(end 3.302 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MY_Library:SS56"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D?"
+				(at 6.858 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MYLibrary:MY"
+				(at -0.762 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS56_1_0"
+				(polyline
+					(pts
+						(xy 1.27 1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.524) (xy -2.032 1.778) (xy -2.032 1.778) (xy -1.524 1.778) (xy -1.524 1.778) (xy -1.524 -2.032)
+						(xy -1.524 -2.032) (xy -1.016 -2.032) (xy -1.016 -2.032) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 170.18 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0461a653-e213-4d7e-a834-f55803bd0c3d")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08633b7b-1083-4f92-bd93-70a6cd0be427")
+	)
+	(polyline
+		(pts
+			(xy 170.18 59.944) (xy 196.85 59.944)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d6d20e-576e-4ce5-953f-7f264646b143")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 133.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d240411-08a1-46a7-ab75-08d4cb920842")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 133.35 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1083dca8-e997-48d4-9115-fc38d0cfdb74")
+	)
+	(wire
+		(pts
+			(xy 153.67 134.62) (xy 170.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12efe75d-d3ec-4f95-95ea-90f45bc7c1a9")
+	)
+	(wire
+		(pts
+			(xy 118.11 134.62) (xy 133.35 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163a9cc6-cd51-4daf-915f-31c3411de2e7")
+	)
+	(wire
+		(pts
+			(xy 118.11 30.48) (xy 133.35 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f67906-0e75-4fc6-b771-16e4c1a63be0")
+	)
+	(wire
+		(pts
+			(xy 153.67 137.16) (xy 170.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2367f74e-3548-4619-848f-3e2a0f9e1570")
+	)
+	(wire
+		(pts
+			(xy 118.11 148.59) (xy 170.18 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258d136f-6c82-405b-b1ea-35f81ce0d405")
+	)
+	(wire
+		(pts
+			(xy 153.67 29.21) (xy 170.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29112666-1122-4a90-bdf3-cc0268e87b74")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eb0d81-f117-4b0a-beee-abd8a6425407")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 170.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3640e71d-a7c2-4055-b50a-c6631635b23f")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 133.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3889d449-d151-4eaf-92c9-002c3740d8ed")
+	)
+	(polyline
+		(pts
+			(xy 170.18 40.64) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afd52bd-1f30-444a-b695-83ef20b5f0a4")
+	)
+	(wire
+		(pts
+			(xy 118.11 107.95) (xy 133.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4058280b-9012-491e-82e6-58cac02d5af0")
+	)
+	(wire
+		(pts
+			(xy 118.11 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4066c9e0-acaa-4418-b04c-0421fdd913d7")
+	)
+	(wire
+		(pts
+			(xy 118.11 132.08) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417ec339-6dcd-42c9-88ac-77cadc51ede6")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428172b9-b07f-46a8-80cf-f2eeb3dbaa84")
+	)
+	(wire
+		(pts
+			(xy 118.11 144.78) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d331105-c442-4c7f-91e9-809b40fecd90")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a48219e-f07f-4449-b6ac-dfaffe37805a")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624391c8-567a-4528-bc83-a7d542a5fbfa")
+	)
+	(wire
+		(pts
+			(xy 119.38 34.29) (xy 118.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fee62a-db47-43e8-bf0a-700b56fdeea7")
+	)
+	(wire
+		(pts
+			(xy 153.67 35.56) (xy 170.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6379c306-12e1-4e90-9248-61179e388460")
+	)
+	(wire
+		(pts
+			(xy 153.67 132.08) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651552c3-6dc5-4124-ae30-d9b2ec4d7118")
+	)
+	(polyline
+		(pts
+			(xy 170.18 112.268) (xy 196.85 112.268)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "6d8ce34e-477e-4c90-a99b-d071dce4ce1d")
+	)
+	(wire
+		(pts
+			(xy 123.19 36.83) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd26862-9277-46cd-ac85-a83d52ac9365")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 133.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7581ca15-a377-4a4c-aa8d-82fe6ed2ac4e")
+	)
+	(wire
+		(pts
+			(xy 118.11 128.27) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a272f7b-c239-4ae2-b1b2-e5fc4a8a77df")
+	)
+	(wire
+		(pts
+			(xy 118.11 45.72) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8393e837-cafd-41ab-8048-2e3b32ae7d20")
+	)
+	(wire
+		(pts
+			(xy 119.38 40.64) (xy 119.38 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84441b8c-00bc-4556-b849-a9e702f086e6")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 170.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84da2c95-5ff9-4a8e-8446-cf61924c0c57")
+	)
+	(wire
+		(pts
+			(xy 118.11 116.84) (xy 133.35 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c90c0cf-083f-4212-bad0-fd0c344db943")
+	)
+	(wire
+		(pts
+			(xy 153.67 53.34) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d79cc6e-dca0-4460-8f7c-90ccdb9ab331")
+	)
+	(wire
+		(pts
+			(xy 153.67 123.19) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f23700d-dfe9-44ee-8b3e-2121a4589edc")
+	)
+	(wire
+		(pts
+			(xy 118.11 137.16) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdce626-9a91-486b-905e-37825840d40c")
+	)
+	(wire
+		(pts
+			(xy 153.67 119.38) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9378b430-05e1-4ae7-8397-e079a85adc71")
+	)
+	(polyline
+		(pts
+			(xy 133.35 112.268) (xy 153.67 112.268)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "98129b55-c2a3-4b39-a0ef-26261e25378a")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 133.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4ae570-07ac-4824-8528-d3edd85c02f5")
+	)
+	(wire
+		(pts
+			(xy 129.54 36.83) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eec00fc-0c9e-4d90-b441-d2d0dbfc7022")
+	)
+	(wire
+		(pts
+			(xy 153.67 66.04) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24b0fcf-ca3e-4d88-bf50-9dff6eb0e896")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a302fa58-5627-4e8a-bd58-984b4554d515")
+	)
+	(polyline
+		(pts
+			(xy 170.18 121.158) (xy 196.85 121.158)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "abfc2aee-b903-4beb-b3f6-2de3fed2b912")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 123.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34783f8-be05-4108-819a-61b9326a33cb")
+	)
+	(wire
+		(pts
+			(xy 118.11 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b595428e-20a9-47dc-8955-58384b64c648")
+	)
+	(wire
+		(pts
+			(xy 153.67 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0b0200-cca5-45e6-b46b-7f0602811fab")
+	)
+	(polyline
+		(pts
+			(xy 170.18 130.302) (xy 196.85 130.302)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "cd51b977-2567-4c83-a690-374abeb345a8")
+	)
+	(wire
+		(pts
+			(xy 118.11 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10838c4-5bbe-4834-83c4-f6afa0a4b3a7")
+	)
+	(polyline
+		(pts
+			(xy 133.35 121.158) (xy 153.67 121.158)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "d257ac6d-5b20-4e07-964e-3195f5201418")
+	)
+	(polyline
+		(pts
+			(xy 170.18 100.076) (xy 196.85 100.076)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ab8462-ee84-47fe-9788-803d76694f12")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98bcea5-7ce3-42fb-b31f-5d83503ccd42")
+	)
+	(wire
+		(pts
+			(xy 153.67 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd715c3b-4a0b-48f8-a035-54c7e6929dca")
+	)
+	(wire
+		(pts
+			(xy 153.67 50.8) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cc24b4-6cfe-41b2-ae2d-59c78d1d9534")
+	)
+	(polyline
+		(pts
+			(xy 170.18 80.518) (xy 196.85 80.518)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e930af23-ec9f-447f-859a-d7f27130f46b")
+	)
+	(polyline
+		(pts
+			(xy 133.35 130.302) (xy 153.67 130.302)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "f7981244-3f98-49d1-9517-21674272a37e")
+	)
+	(wire
+		(pts
+			(xy 118.11 53.34) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f96dfe-fa47-4b40-96e5-f4b307331f8a")
+	)
+	(polyline
+		(pts
+			(xy 170.18 140.208) (xy 196.85 140.208)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96b422e-bfc9-4322-861b-4b0f0d89979b")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faaadf96-6732-4ee8-96be-bda06bd96078")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 133.35 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8a3d07-7f5a-4fd9-aa11-f469699fea24")
+	)
+	(wire
+		(pts
+			(xy 118.11 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4a48b2-7cb0-4773-84bd-213ec7f6c17f")
+	)
+	(wire
+		(pts
+			(xy 118.11 90.17) (xy 133.35 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe0afaf9-cfb3-427f-b248-a09d8ca7ab38")
+	)
+	(text "步进电机部分\n"
+		(exclude_from_sim no)
+		(at 188.976 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62982dac-5478-4c37-b7aa-d4a6213baba5")
+	)
+	(text "CAN总线通信部分\n"
+		(exclude_from_sim no)
+		(at 188.976 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d2f542f-fb27-4446-90c0-100c33d65af9")
+	)
+	(text "485总线通信部分\n"
+		(exclude_from_sim no)
+		(at 188.722 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0610a06-d372-4941-90be-81b86eb98a88")
+	)
+	(text "模拟信号输出"
+		(exclude_from_sim no)
+		(at 190.246 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6386d49-30c0-4b63-b29c-4c81f01ddb55")
+	)
+	(text "以太网透传部分\n"
+		(exclude_from_sim no)
+		(at 189.992 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df03c4a1-58dd-4536-bac6-e23d6665c364")
+	)
+	(text "电源部分"
+		(exclude_from_sim no)
+		(at 191.77 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ffbf4fab-6bdf-4852-a86f-b68479cc5165")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f9edb4a-a0a7-4d04-ba5a-00797607fd10")
+		(property "Reference" "H1"
+			(at 24.13 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 21.59 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "923bbe48-b491-4929-b8cd-3dd2f7d4b50c")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34fae5e8-5dc6-4602-8513-53d65d89ad07")
+		(property "Reference" "H4"
+			(at 24.13 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2855bf26-050f-4967-a715-a3008ce30af5")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MY_Library:0458003.DR")
+		(at 128.27 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90018bed-6cb3-42e8-bfdc-70c393f3af99")
+		(property "Reference" "U9"
+			(at 123.698 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "48V/3A"
+			(at 128.778 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLibrary:FUSE-SMD_L3.2-W1.6"
+			(at 129.286 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08614743-4924-4f6e-895b-ac696eb562d7")
+		)
+		(pin "1"
+			(uuid "3d0df14f-c917-457b-877f-6b5637db7c24")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MY_Library:SS56")
+		(at 124.46 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98e08b0c-2560-4418-b2af-bcc9dee0c218")
+		(property "Reference" "D17"
+			(at 121.158 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS54 60V/5A"
+			(at 125.222 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MYLibrary:MY"
+			(at 125.222 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed69de58-93ae-4633-8a4d-be76c28bae55")
+		)
+		(pin "2"
+			(uuid "6f58a277-d2a5-4f1f-abd5-4887c989437d")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc7bc314-1ea0-4e56-abf9-24078c993714")
+		(property "Reference" "H2"
+			(at 24.13 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de6aae21-13e9-4e25-b92e-f3790cec2256")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f9db9a-60be-4860-894f-8bc276ebdd3c")
+		(property "Reference" "H3"
+			(at 24.13 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 24.13 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "797f46f3-c0b1-4b4a-8f8b-e5b024d8389a")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 22.86)
+		(size 20.32 16.002)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 194 1.0000)
+		)
+		(uuid "4b570b8d-55d2-4b8f-a510-3d7872d05e07")
+		(property "Sheetname" "电源"
+			(at 133.35 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 138.684 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN-" input
+			(at 133.35 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc037a54-f064-4f8d-a68e-3b80af5cecc8")
+		)
+		(pin "VIN" input
+			(at 133.35 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "015ac56f-69c1-4b72-b783-d5d24b05df8a")
+		)
+		(pin "VDD" output
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f210aa2f-90de-48d1-a69f-019a50a94c0b")
+		)
+		(pin "VREF+" output
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e935a7b-c9af-40b9-b751-3c7fbe6f5393")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 103.124)
+		(size 20.32 37.592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "4ffe39bc-5e7e-46ce-8764-d08b9b5c75ca")
+		(property "Sheetname" "steper"
+			(at 133.096 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "step.kicad_sch"
+			(at 132.334 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ST_DIR3" output
+			(at 133.35 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2680292f-7b79-4c8e-a3a4-d05deb854761")
+		)
+		(pin "ST_PWM3" output
+			(at 133.35 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57a93a4b-3d04-4669-803c-b77f39a55108")
+		)
+		(pin "ST_EN3" output
+			(at 133.35 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4722532f-3a93-443b-a3a3-53c73da986bb")
+		)
+		(pin "ST_DIR4" output
+			(at 133.35 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cc8afc76-9cea-4a3a-95cf-052a16897696")
+		)
+		(pin "ST_PWM4" output
+			(at 133.35 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f311092-8f2e-4691-a3f0-5d842be6e891")
+		)
+		(pin "ST_EN4" output
+			(at 133.35 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d551ddbd-83c5-4e93-a682-91c2478fa787")
+		)
+		(pin "DIR3" input
+			(at 153.67 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64043881-cf9a-4999-a455-ecafe30b142d")
+		)
+		(pin "PWM3" input
+			(at 153.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "87e9550c-a678-419e-ab26-7307b2062246")
+		)
+		(pin "EN3" input
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "520d4521-cc82-46dd-9df8-557245bc548f")
+		)
+		(pin "EN1" input
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e2efaff-9c5f-4c62-98ef-0faa13caffe8")
+		)
+		(pin "DIR1" input
+			(at 153.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23b362f8-490d-4791-b63c-006805f61285")
+		)
+		(pin "PWM1" input
+			(at 153.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69dbc7b3-8506-47fc-9406-05e8665687d7")
+		)
+		(pin "ST_DIR1" output
+			(at 133.35 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58dccb91-a977-468b-bee7-96c61b9b6a43")
+		)
+		(pin "ST_PWM1" output
+			(at 133.35 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56930cbc-a877-4028-8946-d1046d053c44")
+		)
+		(pin "EN2" input
+			(at 153.67 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7579307a-e683-4826-a2dc-4ad1f26a09cd")
+		)
+		(pin "DIR2" input
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8559b4e0-19b3-4677-bd4c-a3dbce701596")
+		)
+		(pin "PWM2" input
+			(at 153.67 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c978d77-a44f-4428-82dc-a2a024345285")
+		)
+		(pin "ST_EN1" output
+			(at 133.35 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "700b8543-9d1c-4fc3-b3a1-38eabb2a2e35")
+		)
+		(pin "ST_DIR2" output
+			(at 133.35 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4829af6-2fca-4b06-a221-0e68a0ec0864")
+		)
+		(pin "ST_PWM2" output
+			(at 133.35 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0acbb085-2ff8-4e35-b4a8-fe49adf16c49")
+		)
+		(pin "ST_EN2" output
+			(at 133.35 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18904f28-ca29-4a28-a7f7-21b77ca06131")
+		)
+		(pin "EN4" input
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cf34a63-a548-44e9-a4ec-6502916553ad")
+		)
+		(pin "DIR4" input
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47f1de3b-482c-400b-9b38-50eef7223fd4")
+		)
+		(pin "PWM4" input
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d085e5a-7003-49a5-8639-c6e451b7a11c")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 41.91)
+		(size 20.32 14.986)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 132 0 1.0000)
+		)
+		(uuid "6bcda6e2-c782-4bb5-932b-9cc10393a231")
+		(property "Sheetname" "运算放大"
+			(at 133.35 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OPA.kicad_sch.kicad_sch"
+			(at 133.858 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1IN" input
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e476940b-42a7-4bff-b9c4-7308757e165c")
+		)
+		(pin "1OUT" output
+			(at 133.35 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4add3d67-dd95-4037-8779-77176ca8ac4f")
+		)
+		(pin "4IN" input
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56bd44a1-d94c-47e7-8730-9468ddd2e427")
+		)
+		(pin "4OUT" output
+			(at 133.35 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7f8d0dd-a9ad-44dc-aaeb-72670469d4c0")
+		)
+		(pin "2IN" input
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44298b6d-1e9e-4f9c-99c8-7661914d2e6c")
+		)
+		(pin "2OUT" output
+			(at 133.35 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2c9abb70-b1cb-4eba-8daf-de210622e06b")
+		)
+		(pin "3IN" input
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83551584-f756-4144-a397-f071f68daa57")
+		)
+		(pin "3OUT" output
+			(at 133.35 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0830f00-e2f9-47d8-b9a2-44897e5d30f6")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 61.976)
+		(size 20.32 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "77ec3101-0f07-4afa-ba60-75745a5882c4")
+		(property "Sheetname" "can总线"
+			(at 133.35 61.2644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 133.35 76.5306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 153.67 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a17975a4-694b-486b-98b6-cf9c9a370a93")
+		)
+		(pin "CAN_RX" output
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1df38858-4ed5-4f58-9495-1cb34f4981e2")
+		)
+		(pin "CAN+" bidirectional
+			(at 133.35 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d7ee9b92-da83-4d69-a6f4-40c83deb6b63")
+		)
+		(pin "CAN-" bidirectional
+			(at 133.35 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67b5860b-b157-4748-8d0d-f668107c4409")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 22.86)
+		(size 29.21 128.524)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 194 0 0.5200)
+		)
+		(uuid "7ed66fea-2a26-4d31-ab4f-05af8baf9c40")
+		(property "Sheetname" "接口"
+			(at 88.9 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connection.kicad_sch"
+			(at 88.9 152.2226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COM_RXD" input
+			(at 118.11 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd847366-0664-4cc4-856e-f0ef9ab39239")
+		)
+		(pin "COM_TXD" output
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f56c291-71d4-4238-9a10-ff6e2a191a30")
+		)
+		(pin "DAC_1" input
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f891e18a-d359-4398-a57a-38ca2b24148f")
+		)
+		(pin "DAC_2" input
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aec92ecf-73df-4641-aa0b-5c40437c6730")
+		)
+		(pin "DAC_3" input
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1870d196-f4f5-4e5b-81e2-bd48c8a7b0d3")
+		)
+		(pin "DAC_4" input
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82d286c9-a462-475c-8a9c-2b0fde82caf0")
+		)
+		(pin "VIN-" input
+			(at 118.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "851094b5-0f85-4a84-a509-f3ff19115090")
+		)
+		(pin "VIN+" input
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98776c6e-91d2-4652-8838-55e572fb59c5")
+		)
+		(pin "CAN-" input
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c2e65f0-0a63-4040-832a-32100a89a1a5")
+		)
+		(pin "CAN+" input
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6487f148-9765-440a-ada6-c276f88e50e0")
+		)
+		(pin "ST_EN1" output
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3c815d26-43e2-402c-87a3-5086d240d733")
+		)
+		(pin "ST_DIR1" output
+			(at 118.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c442d03b-c700-4c38-98ff-73580eed55ce")
+		)
+		(pin "ST_DIR3" output
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ed907d3c-19cb-4d20-bd2e-8e2bbc190af6")
+		)
+		(pin "ST_DIR4" output
+			(at 118.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b44fafa-8007-4914-affa-bcb99b2e4f66")
+		)
+		(pin "ST_PWM3" output
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03ece77c-c627-4082-8aa0-f33ba79b1e52")
+		)
+		(pin "ST_PWM4" output
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "57c3bec0-523c-488c-aac3-c9a20a74b199")
+		)
+		(pin "ST_PWM1" output
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71bacb50-4981-461a-b53b-3e218677f715")
+		)
+		(pin "ST_EN3" output
+			(at 118.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08ce36cf-cd0a-46fe-8cc1-ece1e6a39a5d")
+		)
+		(pin "ST_PWM2" output
+			(at 118.11 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "241f9779-7b4d-4bfd-b72d-d2e6fbcc5065")
+		)
+		(pin "ST_EN4" output
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc9d538e-21b7-4031-8a1f-c4540886173a")
+		)
+		(pin "ST_EN2" output
+			(at 118.11 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0e007045-b08a-4b82-b486-90b749991173")
+		)
+		(pin "ST_DIR2" output
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c0e07a1-a0ef-4607-9983-8f93b5d64eab")
+		)
+		(pin "485-" bidirectional
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "262b55d1-b411-4cb3-9c56-fe0521872dec")
+		)
+		(pin "485+" bidirectional
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "730e540d-6f78-46ee-ba5e-6d2be60402a1")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 22.86)
+		(size 26.67 128.27)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 95 1.0000)
+		)
+		(uuid "d2b6001d-5fdc-44c7-860c-e1c627466007")
+		(property "Sheetname" "MCU核心"
+			(at 170.18 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 170.18 152.2226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD" input
+			(at 170.18 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "575b659b-46ee-4fd6-8eee-6cd90cc71ca9")
+		)
+		(pin "VREF+" input
+			(at 170.18 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26b5e878-374f-4ae6-9c10-abe67cdb9c4b")
+		)
+		(pin "DAC_OU1" output
+			(at 170.18 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4f4bb6c-9f63-4fd2-91bf-55c25129001f")
+		)
+		(pin "DAC_OUT2" output
+			(at 170.18 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15f88d70-7605-4d3c-bb6b-43e6bc47a188")
+		)
+		(pin "DAC_OUT3" output
+			(at 170.18 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74b95ae8-b5e0-400b-b2a9-3102347c42f4")
+		)
+		(pin "DAC_OUT4" output
+			(at 170.18 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "619a39cc-50a7-4d01-a183-195614126e0a")
+		)
+		(pin "USART_RX" input
+			(at 170.18 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de4e80ee-fdb9-434d-8d2a-fb2c429d22f6")
+		)
+		(pin "USART_TX" output
+			(at 170.18 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f00bd685-b23f-47bd-bb71-7225761e2d5d")
+		)
+		(pin "CAN_TX" output
+			(at 170.18 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89abdba0-850b-4c1d-a5b2-09b35a0713ad")
+		)
+		(pin "CAN_RX" input
+			(at 170.18 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69c46f3a-a1ea-41a6-990c-e433c3e4556c")
+		)
+		(pin "DIR1" input
+			(at 170.18 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a2b8fdf-3921-476e-8dd2-19eb3c99c1b9")
+		)
+		(pin "EN2" input
+			(at 170.18 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8dcb378d-dd00-4724-bcce-cb86755f8e3b")
+		)
+		(pin "EN1" input
+			(at 170.18 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b88e61e-79f4-42db-9626-b03000abc077")
+		)
+		(pin "PWM2" input
+			(at 170.18 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b415d941-9e80-4690-a84a-07a45a91cb12")
+		)
+		(pin "PWM1" input
+			(at 170.18 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b7afe478-2cb4-49ae-b6a7-3a254ba6d59f")
+		)
+		(pin "DIR2" input
+			(at 170.18 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02fd2128-3b7c-4655-aa86-72a4a9b7f045")
+		)
+		(pin "PWM4" input
+			(at 170.18 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b71b2a0-66a4-47c5-9b9e-ec0b7870b7ed")
+		)
+		(pin "EN3" input
+			(at 170.18 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e773baad-1c3a-43fb-b5fa-acfb6d1e944f")
+		)
+		(pin "EN4" input
+			(at 170.18 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2e2cfc37-015e-4567-9ab7-9179b9cedd8c")
+		)
+		(pin "DIR3" input
+			(at 170.18 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "667f15e7-3fcf-4aa0-9d77-4a10232b08ca")
+		)
+		(pin "DIR4" input
+			(at 170.18 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d412802d-ed2d-4839-9487-522a5bd1bcf9")
+		)
+		(pin "PWM3" input
+			(at 170.18 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "edf7ff4d-ebae-407f-85ca-93df601f818c")
+		)
+		(pin "RS485_TX" input
+			(at 170.18 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f56f91d4-4d00-41f2-b537-692b1b50110f")
+		)
+		(pin "RS485_RX" output
+			(at 170.18 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e00dce94-694a-4a7e-8bd3-b6e73b0d2478")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 81.28)
+		(size 20.32 13.208)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "db0f75c7-6c1c-46b8-aee8-89202badd026")
+		(property "Sheetname" "RS485"
+			(at 133.35 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs485.kicad_sch"
+			(at 133.35 95.0726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485_RX" output
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab78b5ff-6f8f-4838-8735-ac68e4cccb5e")
+		)
+		(pin "RS485_TX" input
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d846590-dbe4-4273-9bf9-634c0a992ddc")
+		)
+		(pin "485+" bidirectional
+			(at 133.35 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d623346-e7c5-4754-a3e9-c2fdb0706f49")
+		)
+		(pin "485-" bidirectional
+			(at 133.35 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f9820d6-2bd2-4606-9375-8c44cf9c2766")
+		)
+		(instances
+			(project "运动控制卡"
+				(path "/44f95aaa-b8fb-4878-90c0-6b2790b3f62f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
